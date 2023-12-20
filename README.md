@@ -20,3 +20,22 @@ d) Take Input Parameters 6,12 from a file called in.txt written on the same line
 e) Take Input Parameters 7 and 10 from console. Output to 4 different files 7.txt, 8.txt, 9.txt, 10.txt  
   
 f) Take Input Parameters 8 and 9 from console. Output in a separate directory called TABLES and with 8_yyyymmdd_hhmmss.txt (eg 8_20210828_110503.txt). Import datetime as dt, today=dt.datetime.now()  
+
+# Q2  
+a) School Clock is showing 9 am. Compute the angle between the Hour hand and the Minute hand. It should show Time: Angle in Degrees from 9:00 am to 8:55 pm with a spacing of 5 minutes. First compute angle traversed by hour hand in one hour. Use this value to compute angle traversed in 5 minutes.  
+9:05 -  
+9:10 -  
+9:15 -  
+9:20 -  
+9:25 -  
+9:30 -  
+9:35 -  
+9:40 -  
+9:45 -  
+9:50 -  
+9:55 -  
+  
+10:00 - 60.00  
+10:05 -  
+  
+b) Use angle%360 to get modulo of 360 and avoid negative values. Initially let the clock show 24-hour time format eg. 13:00 hrs, 14:00 hrs etc. Later change to 12-hour format with AM, PM.   
